@@ -62,12 +62,14 @@ The videos for this competition are crawled from the Chinese medical instruction
 #### Track 1:
 ##### Temporal Answer Grounding in Singe Video
 We will evaluate the results using the metric calculation equation shown as follows. Specifically, we use (1) Intersection over Union (IoU), and (2) mIoU which is the average IoU over all testing samples. Following the previous work [3]-[5], we adopt “R@n, IoU = μ”, and “mIoU” as the evaluation metrics, which treat localization of the frames in the video as a span prediction task. The “R@n, IoU = μ” denotes the Intersection over Union (IoU) of the predicted temporal answer span compared with the ground truth span, where the overlapping part is larger than “μ” in top-n retrieved moments. The “mIoU” is the average IoU over the samples. In our experiments, we use n = 1 and μ ∈ {0.3, 0.5, 0.7} to evaluate the TAGSV results. 
+
 $$
 \begin{aligned}
  \mathrm{IOU} & =\frac{A \cap B}{A \cup B}  \\
 \mathrm{mIOU} & =\left(\sum_{i=1}^n \mathrm{IOU}\right) / n
 \end{aligned}
 $$
+
 where A and B represent different spans. 
 **Note:** The main ranking of this track is based on the mIoU score, and other metrics in this track are also provided for further analysis.
 
@@ -75,23 +77,29 @@ where A and B represent different spans.
 
 ##### Video Corpus Retrieval 
 Following the pioneering work [6], we adopt the video retrieval metric like “R@n”. Specifically, we adopt the n=1, 10, and 100 to denote the recall performance of the video retrieval. The Mean Reciprocal Rank (MRR) score to evaluate the Chinese medical instructional video corpus retrieval track, which can be calculated as follows.
+
 $$
 M R R=\frac{1}{|V|} \sum_{i=1}^{|V|} \frac{1}{\operatorname{Rank}_i} \cdots
 $$
+
 where the |*V*| is the number of the video corpus. For each testing sample *V*<sub>i</sub>, the Rank<sub>i</sub> is the position of the target ground-truth video in the predicted list.
 **Note:** The main ranking of this track is based on the Overall score. The Overall score is calculated by averaging the R@1, R@10, R@100 and MRR scores, which is shown as follows.
+
 $$
 \text { Overall }=\frac{1}{|M|} \sum_{i=1}^{|M|} \frac{1}{\text { Value}_i}
 $$
+
 where the |*M*| is the number of the evaluation metrics. Value<sub>i</sub> is the i-th metric in the above metrics (R@1, R@10, R@100 and MRR), |M|=4.
 #### Track 3:
 
 ##### Temporal Answer Grounding in Video Corpus
 We kept the Intersection over Union (IoU) metric similar to the Track 1 and the retrieval indexes “R@n, n=1/10/100” and MRR similar to Track 2 for further analysis. The “R@n, IoU = 0.3/0.5/0.7” is still used, where we assign the n = 1, 10, 100 for evaluation. The index of mean IoU in video retrieval subtask, i.e., “R@1/10/100|mIOU”, is also adopted for measuring the average level of participating model’s performance. 
 **Note:** The main ranking of this track is based on the Average score. The Average score is calculated by averaging the R@1|mIoU, R@10|mIoU, R@100|mIoU scores, which is shown as follows.
+
 $$
 \text { Average }=\frac{1}{|M'|} \sum_{i=1}^{|M'|} \frac{1}{\text { Value}_i}
 $$
+
 where the |M<sup>'</sup>| is the number of the evaluation metrics. Value<sub>i</sub> is the value of the i-th metric (i.e., R@1|mIoU, R@10|mIoU, R@100|mIoU), |M<sup>'</sup>|=3.
 
 ## Participation
