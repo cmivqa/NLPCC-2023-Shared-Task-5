@@ -19,7 +19,7 @@ Recently, the availability of online videos has revolutionized the way to access
 ## <a id="task_overview">Task Overview</a>
 This shared task includes three tracks: Temporal Answer Grounding in Singe Video (TAGSV), Video Corpus Retrieval (VCR) and Temporal Answer Grounding in Video Corpus (TAGVC).
 <center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="C:\Users\Bin\Desktop\NLPCC_TASK\pic1.png" width = "100%" alt=""/>   
+<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./pic1.png" width = "100%" alt=""/>   
 <br>    
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
 Fig. 1: Illustration of Temporal Answer Grounding in Singe Video (TAGSV).
@@ -28,7 +28,7 @@ Fig. 1: Illustration of Temporal Answer Grounding in Singe Video (TAGSV).
 * <span id = "track1">**Track 1. Temporal Answer Grounding in Singe Video (TAGSV)**</span>: As shown in Fig. 1: given a medical or health-related question and a single untrimmed Chinese medical instructional video, this track aims to locate the temporal answer (start and end time points) within the video.
 
 <center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="C:\Users\Bin\Desktop\NLPCC_TASK\pic2.png" width = "100%" alt=""/>   
+<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./pic2.png" width = "100%" alt=""/>   
 <br>    
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
 Fig. 2: Illustration of Video Corpus Retrieval (VCR).
@@ -38,7 +38,7 @@ Fig. 2: Illustration of Video Corpus Retrieval (VCR).
 * <span id = "track2">**Track 2. Video Corpus Retrieval (VCR)**</span>: As shown in Fig. 2, given a medical or health-related question and a large collection of untrimmed Chinese medical instructional videos, this track aims to find the most relevant video corresponding to the given question in the video corpus.
 
 <center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="C:\Users\Bin\Desktop\NLPCC_TASK\pic3.png" width = "100%" alt=""/>   
+<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./pic3.png" width = "100%" alt=""/>   
 <br>    
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
 Fig. 3: Illustration of Temporal Answer Grounding in Video Corpus (TAGVC).
@@ -49,7 +49,7 @@ Fig. 3: Illustration of Temporal Answer Grounding in Video Corpus (TAGVC).
 ## Dataset 
 
 <center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="F:\EGO4D\pic4.png" width = "60%" alt=""/>   
+<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./pic4.png" width = "60%" alt=""/>   
 <br>    
 <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
 Fig. 4: Dataset examples of the TAGV shared task.
