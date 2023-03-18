@@ -71,6 +71,7 @@ $$
 $$
 
 where A and B represent different spans. 
+</br>
 **Note:** The main ranking of this track is based on the mIoU score, and other metrics in this track are also provided for further analysis.
 
 #### Track 2:
@@ -79,10 +80,11 @@ where A and B represent different spans.
 Following the pioneering work [6], we adopt the video retrieval metric like “R@n”. Specifically, we adopt the n=1, 10, and 100 to denote the recall performance of the video retrieval. The Mean Reciprocal Rank (MRR) score to evaluate the Chinese medical instructional video corpus retrieval track, which can be calculated as follows.
 
 $$
-M R R=\frac{1}{|V|} \sum_{i=1}^{|V|} \frac{1}{\operatorname{Rank}_i} \cdots
+M R R=\frac{1}{|V|} \sum_{i=1}^{|V|} \frac{1}{\operatorname{Rank}_i} 
 $$
 
 where the |*V*| is the number of the video corpus. For each testing sample *V*<sub>i</sub>, the Rank<sub>i</sub> is the position of the target ground-truth video in the predicted list.
+</br>
 **Note:** The main ranking of this track is based on the Overall score. The Overall score is calculated by averaging the R@1, R@10, R@100 and MRR scores, which is shown as follows.
 
 $$
@@ -94,6 +96,7 @@ where the |*M*| is the number of the evaluation metrics. Value<sub>i</sub> is th
 
 ##### Temporal Answer Grounding in Video Corpus
 We kept the Intersection over Union (IoU) metric similar to the Track 1 and the retrieval indexes “R@n, n=1/10/100” and MRR similar to Track 2 for further analysis. The “R@n, IoU = 0.3/0.5/0.7” is still used, where we assign the n = 1, 10, 100 for evaluation. The index of mean IoU in video retrieval subtask, i.e., “R@1/10/100|mIOU”, is also adopted for measuring the average level of participating model’s performance. 
+</br>
 **Note:** The main ranking of this track is based on the Average score. The Average score is calculated by averaging the R@1|mIoU, R@10|mIoU, R@100|mIoU scores, which is shown as follows.
 
 $$
@@ -103,7 +106,7 @@ $$
 where the |M<sup>'</sup>| is the number of the evaluation metrics. Value<sub>i</sub> is the value of the i-th metric (i.e., R@1|mIoU, R@10|mIoU, R@100|mIoU), |M<sup>'</sup>|=3.
 
 ## Participation
-If you are interested in our challenge, please fill out the [application form](C:\Users\Bin\Desktop\NLPCC_TASK\RegistrationForm.doc) and email libinincn@hnu.edu.cn (Please email us with your organization's email and note that you participate in the challenge). The dataset will be sent to you by then. 
+If you are interested in our challenge, please fill out the [application form](http://tcci.ccf.org.cn/conference/2023/dldoc/NLPCC2023.SharedTask5.RegistrationForm.doc) and email libinincn@hnu.edu.cn (Please email us with your organization's email and note that you participate in the challenge). The dataset will be sent to you by then. 
 
 ## Award
 The top 3 participating teams will be certificated by NLPCC and CCF-NLP, as well as awarded cash rewards.
