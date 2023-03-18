@@ -18,43 +18,45 @@ The Chinese medical instructional video question answering aims at performing th
 Recently, the availability of online videos has revolutionized the way to access information or gain knowledge [1]-[2]. Many people find instructional videos to be an effective and efficient way to teach or learn how to accomplish a particular task with a series of step-by-step procedures [3]-[4]. To this end, a new task temporal answer grounding in the Chinese Medical instructional video (TAGV) is proposed to find the video frame span corresponding to an input question. The ultimate goal for this shared task is to develop a system that can provide temporal answer video segments for the first-aid, medical emergency, or medical education.
 ## <a id="task_overview">Task Overview</a>
 This shared task includes three tracks: Temporal Answer Grounding in Singe Video (TAGSV), Video Corpus Retrieval (VCR) and Temporal Answer Grounding in Video Corpus (TAGVC).
-<center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./img/pic1.png" width = "100%" alt=""/>   
-<br>    
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
-Fig. 1: Illustration of Temporal Answer Grounding in Singe Video (TAGSV).
+
+<div align=center>
+<img src="./img/pic1.png" width="100%">
 </div>
-</center>
+<div align ='center'>
+<b>Fig. 1: Illustration of Temporal Answer Grounding in Singe Video (TAGSV).</b></a>
+</div>
+
 * <span id = "track1">**Track 1. Temporal Answer Grounding in Singe Video (TAGSV)**</span>: As shown in Fig. 1: given a medical or health-related question and a single untrimmed Chinese medical instructional video, this track aims to locate the temporal answer (start and end time points) within the video.
 
-<center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./img/pic2.png" width = "100%" alt=""/>   
-<br>    
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
-Fig. 2: Illustration of Video Corpus Retrieval (VCR).
+
+
+<div align=center>
+<img src="./img/pic2.png" width="100%">
 </div>
-</center>
+<div align ='center'>
+<b>Fig. 2: Illustration of Video Corpus Retrieval (VCR).</b></a>
+</div>
+
 
 * <span id = "track2">**Track 2. Video Corpus Retrieval (VCR)**</span>: As shown in Fig. 2, given a medical or health-related question and a large collection of untrimmed Chinese medical instructional videos, this track aims to find the most relevant video corresponding to the given question in the video corpus.
 
-<center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./img/pic3.png" width = "100%" alt=""/>   
-<br>    
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
-Fig. 3: Illustration of Temporal Answer Grounding in Video Corpus (TAGVC).
+<div align=center>
+<img src="./img/pic3.png" width="100%">
 </div>
-</center>
+<div align ='center'>
+<b>Fig. 3: Illustration of Temporal Answer Grounding in Video Corpus (TAGVC).</b></a>
+</div>
+
 
 * <span id = "track3">**Track 3. Temporal Answer Grounding in Video Corpus (TAGVC)**</span>: As shown in Fig. 3, given a text question and a large collection of untrimmed Chinese medical instructional videos, this track aims at finding the matching video answer span within the most relevant video corresponding to the given question in the video corpus.
 ## Dataset 
-
-<center>    
-<img style=" box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="./img/pic4.png" width = "60%" alt=""/>   
-<br>    
-<div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">    
-Fig. 4: Dataset examples of the TAGV shared task.
+<div align=center>
+<img src="./img/pic4.png" width="60%">
 </div>
-</center>
+<div align ='center'>
+<b>Fig. 4: Dataset examples of the TAGV shared task.</b></a>
+</div>
+
 The videos for this competition are crawled from the Chinese medical instructional channels on the YouTube website, where the subtitles (in Chinese) are transcribed from the corresponding video. The frames from the videos have been down-sampled to 16fps. The question and corresponding temporal answer are manually labeled by annotators with the medical background. Each video may include several question-answer pairs, where the question is divided into the simple question and the complex question. The dataset is split into a training set, a validation set, and a test set. During the competition, the test set is not available to the public. The Fig. 4 shows the dataset examples for the TAGV shared task. The “id” is the sample number which is used for the video retrieval track. The “video_id” means the unique ID from YouTube. The “question” item is written manually by the medical experts. The “start and end second” represent the temporal answer from the corresponding video. The complex items (0 or 1) in the training set indicate whether the sample belongs to the complex question. As a result, our final goal is to retrieve the target video ID from the test corpus, and then locate the visual answer.
 
 
