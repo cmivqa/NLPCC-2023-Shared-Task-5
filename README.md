@@ -140,6 +140,7 @@ Announcement of shared tasks and call for participation: 2023/3/15
 
 - [ ] Camera-ready paper submission deadline:	2023/8/1
 
+All deadlines are 11.59 pm in UTC-8 ("Beijing Time"). For more details, please refer to the email notification.
 ## Reference
 [1]  *Li, Bin*, *et al.* “Towards visual-prompt temporal answering grounding in medical instructional video.” *arXiv preprint arXiv:2203.06667 (2022).*
 
