@@ -71,7 +71,7 @@ The videos for this competition are crawled from the Chinese medical instruction
 
 Download all the Train & Dev files (videos, audios and subtitles) [BaiduNetDisk](https://pan.baidu.com/s/1VRJZaQyGn5PbyGt0yVo1Gg?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1QbY8DEaVLkY2w6vOCWAs4ZQFHgJ3q8ui?usp=sharing)
 
-**Note:** We will provide the baseline soon, any original methods (language/vision/audio/mutlimodal etc.) are welcome.
+**Note:** We will provide the baseline and the Test A daset soon, any original methods (language/vision/audio/mutlimodal etc.) are welcome.
 
 ## Evaluation
 #### Track 1:
@@ -137,7 +137,9 @@ Announcement of shared tasks and call for participation: 2023/3/15
 
 - [x] Registration open:	2023/3/15
 
-- [ ] Release of detailed task guidelines & training data & Test A:	2023/4/3
+- [x] Release of detailed task guidelines & training data:	2023/4/3
+
+- [ ] Release Test A data:	2023/4/10
 
 - [ ] Registration deadline: 2023/5/5
 
