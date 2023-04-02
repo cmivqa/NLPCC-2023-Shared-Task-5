@@ -51,7 +51,7 @@ This shared task includes three tracks: Temporal Answer Grounding in Singe Video
 * <span id = "track3">**Track 3. Temporal Answer Grounding in Video Corpus (TAGVC)**</span>: As shown in Fig. 3, given a text question and a large collection of untrimmed Chinese medical instructional videos, this track aims at finding the matching video answer span within the most relevant video corresponding to the given question in the video corpus.
 ## Dataset 
 <div align=center>
-<img src="./img/pic4.png" width="60%">
+<img src="./img/pic4_v2.png" width="60%">
 </div>
 <div align ='center'>
 <b>Fig. 4: Dataset examples of the TAGV shared task.</b></a>
