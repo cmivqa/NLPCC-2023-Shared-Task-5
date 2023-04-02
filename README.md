@@ -130,7 +130,7 @@ Announcement of shared tasks and call for participation: 2023/3/15
 
 - [ ] Release the Test B:	2023/5/21
 
-- [ ] Participants’ results submission deadline: 2023/5/31
+- [ ] Participants’ final result submission (Test B) deadline: 2023/5/31
 
 - [ ] Evaluation results release and call for system reports and conference paper: 2023/6/10
 
