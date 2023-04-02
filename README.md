@@ -59,6 +59,20 @@ This shared task includes three tracks: Temporal Answer Grounding in Singe Video
 
 The videos for this competition are crawled from the Chinese medical instructional channels on the YouTube website, where the subtitles (in Chinese) are transcribed from the corresponding video. The frames from the videos have been down-sampled to 16fps. The question and corresponding temporal answer are manually labeled by annotators with the medical background. Each video may contain several question-answer pairs, where each question corresponds to a unique answer. The dataset is split into a training set, a validation set, and a test set. During the competition, the test set along with the true “id” data number is not available to the public. The Fig. 4 shows the dataset examples for the TAGV shared task. The “id” is the sample number which is used for the video retrieval track. The “video_id” means the unique ID from YouTube. The “question” item is written manually by the medical experts. The “start and end second” represent the temporal visual answer from the corresponding video.
 
+* **Statistics**
+
+| Dataset | Videos  | QA pairs | Vocab Nums | Question Avg. Len. | Video Avg. Len. |
+| ----- | ------ | ---------- | ------ | ------ | ------ |
+| Train & Dev | 1,228 | 2,937  | 3,125 | 17.16 | 263.3 |
+| Test A | 200  | 492     | 2,171 | 17.81   | 242.4 |
+| Test B (To be published) | -  | -     | - | - | - |
+
+* **Details**
+
+Download all the Train & Dev files (videos, audios and subtitles) [BaiduNetDisk](https://pan.baidu.com/s/1VRJZaQyGn5PbyGt0yVo1Gg?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1QbY8DEaVLkY2w6vOCWAs4ZQFHgJ3q8ui?usp=sharing)
+
+**Note:** We will provide the baseline soon, any original methods (language/vision/audio/mutlimodal etc.) are welcome.
+
 ## Evaluation
 #### Track 1:
 ##### Temporal Answer Grounding in Singe Video
