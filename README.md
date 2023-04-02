@@ -120,25 +120,25 @@ The second prize (*1): ￥2000
 The third prize (*1): ￥1000
 
 ## <a id="important_dates"> Important Dates</a>
-Announcement of shared tasks and call for participation:	2023/3/15
+Announcement of shared tasks and call for participation: 2023/3/15
 
 - [x] Registration open:	2023/3/15
 
-- [ ] Release of detailed task guidelines & training data:	2023/4/6
+- [ ] Release of detailed task guidelines & training data & Test A:	2023/4/3
 
-- [ ] First submission of results on the blind test data:	2023/5/1
+- [ ] Registration deadline: 2023/5/5
 
-- [ ] Registration deadline:	2023/5/5
+- [ ] Release the Test B:	2023/5/21
 
-- [ ] Participants’ results submission deadline:	2023/6/3
+- [ ] Participants’ results submission deadline: 2023/5/31
 
-- [ ] Evaluation results release and call for system reports and conference paper:	2023/6/10
+- [ ] Evaluation results release and call for system reports and conference paper: 2023/6/10
 
-- [ ] Conference paper submission deadline (only for shared tasks):	2022/3/20
+- [ ] Conference paper submission deadline (only for shared tasks): 2023/6/30
 
-- [ ] Conference paper accept/reject notification:	2023/7/4
+- [ ] Conference paper accept/reject notification: 2023/7/18
 
-- [ ] Camera-ready paper submission deadline:	2023/7/18
+- [ ] Camera-ready paper submission deadline:	2023/8/1
 
 ## Reference
 [1]  *Li, Bin*, *et al.* “Towards visual-prompt temporal answering grounding in medical instructional video.” *arXiv preprint arXiv:2203.06667 (2022).*
