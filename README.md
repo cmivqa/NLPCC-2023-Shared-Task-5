@@ -123,7 +123,7 @@ where the |*V*| is the number of the video corpus. For each testing sample *V*<s
 **Note:** The main ranking of this track is based on the Overall score. The Overall score is calculated by summarizing the R@1, R@10, R@50 and MRR scores, which are shown as follows.
 
 $$
-\text { Overall }= \sum_{i=1}^{|M|} \frac{1}{\text { Value}_i}
+\text { Overall }= \sum_{i=1}^{|M|} {\text { Value}_i}
 $$
 
 where the |*M*| is the number of the evaluation metrics. Value<sub>i</sub> is the i-th metric in the above metrics (R@1, R@10, R@50 and MRR), |M|=4.
