@@ -70,9 +70,9 @@ The videos for this competition are crawled from the Chinese medical instruction
 * **Details**
 
 Download all the Train & Dev files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1VRJZaQyGn5PbyGt0yVo1Gg?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1QbY8DEaVLkY2w6vOCWAs4ZQFHgJ3q8ui?usp=sharing)
-Download all the TestA_for_track1 files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1XxoQ-KwUy9qf3Z0RfaPTaw?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1Fdll0Qn8Ol65Z91u51NOEpBoxAQlrXN4?usp=sharing)
+Download all the TestA files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1XxoQ-KwUy9qf3Z0RfaPTaw?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1Fdll0Qn8Ol65Z91u51NOEpBoxAQlrXN4?usp=sharing)
 
-**News:** The test A is released, and our baseline is in [Github](https://github.com/WENGSYX/CMIVQA_Baseline) Any original methods (language/vision/audio/mutlimodal etc.) are welcome.
+**News:** The Test A set is released, and our baseline is in [Github](https://github.com/WENGSYX/CMIVQA_Baseline) Any original methods (language/vision/audio/mutlimodal etc.) are welcome.
 
 ## Baseline 
 #### Temporal Answer Grounding in Singe Video Track
