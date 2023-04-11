@@ -79,7 +79,7 @@ Download all the TestA files (with videos, audios, subtitles and video features)
 
 | R@1, IoU=0.3 | R@1, IoU=0.5 | R@1, IoU=0.7 | mIoU(R@1) |
 | ------------ | ------------ | ------------ | --------- |
-| 56.71        | 40.65        | 23.577       | 39.97     |
+| 0.5671        | 0.4065        | 0.2358       | 0.3997     |
 
 #### Video Corpus Retrieval Track
 
