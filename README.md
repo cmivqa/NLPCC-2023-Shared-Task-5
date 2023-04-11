@@ -1,4 +1,8 @@
 # Shared Task 5 in NLPCC 2023: Chinese Medical Instructional Video Question Answering
+<p align="center">
+  <img src="./image/cmivqa.png" alt="cmivqa" width="65%" height="65%">
+</p>
+
 The Chinese medical instructional video question answering aims at performing the temporal answer grounding task given a medical-related question in a single video or the video corpus. Those videos are collected from high-quality Chinese medical [Youtube](https://www.youtube.com/) channels and annotated by Chinese medical experts.
 
 ## Table of Contents
@@ -176,6 +180,13 @@ Announcement of shared tasks and call for participation: 2023/3/15
 - [ ] Camera-ready paper submission deadline:	2023/8/1
 
 All deadlines are 11.59 pm in UTC-8 ("Beijing Time"). For more details, please refer to the email notification.
+
+## WeChat
+<p align="center">
+  <img src="./image/wechat.jpg" alt="cmivqa" width="45%" height="45%">
+</p>
+
+
 ## Reference
 [1]  *Li, Bin*, *et al.* “Towards visual-prompt temporal answering grounding in medical instructional video.” *arXiv preprint arXiv:2203.06667 (2022).*
 
