@@ -168,7 +168,7 @@ Announcement of shared tasks and call for participation: 2023/3/15
 
 - [x] Release Test A data:	2023/4/10
 
-- [ ] Registration deadline: 2023/5/5
+- [ ] Registration deadline: 2023/5/28 (Same as the Test B submission deadline)
 
 - [ ] Release the Test B:	2023/5/21
 
