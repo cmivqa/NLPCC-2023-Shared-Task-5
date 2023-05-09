@@ -185,8 +185,9 @@ Announcement of shared tasks and call for participation: 2023/3/15
 All deadlines are 11.59 pm in UTC-8 ("Beijing Time"). For more details, please refer to the email notification.
 
 ## WeChat
+请添加微信好友拉群
 <p align="center">
-  <img src="./img/wechat.jpg" alt="cmivqa" width="45%" height="45%">
+  <img src="./img/wechat1.jpg" alt="cmivqa" width="45%" height="45%">
 </p>
 
 
