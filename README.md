@@ -192,7 +192,7 @@ All deadlines are 11.59 pm in UTC-8 ("Beijing Time"). For more details, please r
 ## Reference
 [1]  *Li, Bin*, *et al.* “Towards visual-prompt temporal answering grounding in medical instructional video.” *arXiv preprint arXiv:2203.06667 (2022).*
 
-[2]  *Weng, Yixuan, and Bin Li.* “Visual Answer Localization with Cross-modal Mutual Knowledge Transfer.” ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSP49357.2023.10095026..
+[2]  *Weng, Yixuan, and Bin Li.* “Visual Answer Localization with Cross-modal Mutual Knowledge Transfer.” ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSP49357.2023.10095026.
 
 [3]  *Deepak Gupta, Kush Attal, and Dina Demner-Fushman.* “A Dataset for Medical Instructional Video Classification and Question Answering.” *arXiv preprint arXiv:2201.12888, 2022.*
 
@@ -200,4 +200,4 @@ All deadlines are 11.59 pm in UTC-8 ("Beijing Time"). For more details, please r
 
 [5]  *Zhang, Hao, et al.* “Natural language video localization: A revisit in span-based question answering framework.” *IEEE transactions on pattern analysis and machine intelligence 44.8 (2021): 4252-4266.*
 
-[6]  *Li, Bin, et al.* "Learning to Locate Visual Answer in Video Corpus Using Question." ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSP49357.2023.10096391..
+[6]  *Li, Bin, et al.* "Learning to Locate Visual Answer in Video Corpus Using Question." ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Rhodes Island, Greece, 2023, pp. 1-5, doi: 10.1109/ICASSP49357.2023.10096391.
