@@ -74,7 +74,9 @@ The videos for this competition are crawled from the Chinese medical instruction
 * **Details**
 
 Download all the Train & Dev files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1eN_mo3iHyyHVH_8dciElqA?pwd=9871) | [GoogleDrive](https://drive.google.com/drive/folders/1QbY8DEaVLkY2w6vOCWAs4ZQFHgJ3q8ui?usp=sharing)
+
 Download all the TestA files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1XxoQ-KwUy9qf3Z0RfaPTaw?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1Fdll0Qn8Ol65Z91u51NOEpBoxAQlrXN4?usp=sharing)
+
 Download all the TestB files (with videos, audios, subtitles and video features) [BaiduNetDisk](https://pan.baidu.com/s/1XxoQ-KwUy9qf3Z0RfaPTaw?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1Fdll0Qn8Ol65Z91u51NOEpBoxAQlrXN4?usp=sharing)
 
 **News1:** The Test A set is released, and our baseline is released in [Github](https://github.com/WENGSYX/CMIVQA_Baseline). Any original methods (language/vision/audio/mutlimodal etc.) are welcome.
