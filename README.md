@@ -69,7 +69,7 @@ The videos for this competition are crawled from the Chinese medical instruction
 | ----- | ------ | ---------- | ------ | ------ | ------ |
 | Train & Dev | 1,228 | 2,937  | 3,125 | 17.16 | 263.3 |
 | Test A | 200  | 492     | 2,171 | 17.81   | 242.4 |
-| Test B (To be published) | -  | -     | - | - | - |
+| Test B | 200  | 511    | 2234 | 17.48 | 310.9 |
 
 * **Details**
 
@@ -81,7 +81,8 @@ Download all the TestA files (with videos, audios, subtitles and video features)
 **News2:** The broken videos (ID: LILVsv4Ft_E and D_igZblZVp0) have been fixed in the [link](https://pan.baidu.com/s/1hbLF0n7m25FsaXeQJBIdHw?pwd=9874) for those who have already downloaded the datasets with the old version. For a beginner, you can download the [BaiduNetDisk](https://pan.baidu.com/s/1VRJZaQyGn5PbyGt0yVo1Gg?pwd=9874) | [GoogleDrive](https://drive.google.com/drive/folders/1QbY8DEaVLkY2w6vOCWAs4ZQFHgJ3q8ui?usp=sharing) without any concern.
 
 
-## Baseline 
+
+## Baseline in Test A
 #### Temporal Answer Grounding in Singe Video Track
 
 | R@1, IoU=0.3 | R@1, IoU=0.5 | R@1, IoU=0.7 | mIoU(R@1) |
@@ -99,6 +100,26 @@ Download all the TestA files (with videos, audios, subtitles and video features)
 | R@1\|mIoU | R@10\|mIoU | R@50\|mIoU | Average |
 | --------- | ---------- | ---------- | ------- |
 | 0.1947    | 0.3397     | 0.4409     | 0.3251  |
+
+## Baseline in Test B
+#### Temporal Answer Grounding in Singe Video Track
+
+| R@1, IoU=0.3 | R@1, IoU=0.5 | R@1, IoU=0.7 | mIoU(R@1) |
+| ------------ | ------------ | ------------ | --------- |
+| 0.4990        | 0.3738        | 0.2133       | 0.3592     |
+
+#### Video Corpus Retrieval Track
+
+| R@1    | R@10   | R@50   | MRR    | Overall |
+| ------ | ------ | ------ | ------ | ------- |
+| 0.3249 | 0.4403 | 0.5427 | 0.3641 | 1.6721  |
+
+#### Temporal Answer Grounding in Video Corpus Track
+
+| R@1\|mIoU | R@10\|mIoU | R@50\|mIoU | Average |
+| --------- | ---------- | ---------- | ------- |
+| 0.1431    | 0.2642     | 0.3560     | 0.2545  |
+
 
 ## Evaluation
 #### Track 1:
@@ -166,9 +187,9 @@ Announcement of shared tasks and call for participation: 2023/3/15
 
 - [x] Release Test A data:	2023/4/10
 
-- [ ] Registration deadline: 2023/5/28 (Same as the Test B submission deadline)
+- [x] Release the Test B:	2023/5/21
 
-- [ ] Release the Test B:	2023/5/21
+- [ ] Registration deadline: 2023/5/28 (Same as the Test B submission deadline)
 
 - [ ] Participants’ final result submission (Test B) deadline: 2023/5/28
 
